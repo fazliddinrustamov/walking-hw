@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Walking Mood</title>
+  <link rel="stylesheet" href="./styles/bootstrap.min.css">
+  <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body class="bg-info bg-opacity-10">
+  <div class="container">
+    <div class="inner text-center mt-5">
+      <h1 class="set-degree mb-5 link-success">Enter the <span class="link-primary">outdoor</span> air temperature!</h1>
+
+      <form class="degree-form row w-50 mx-auto justify-content-center">
+        <div class="input-box col-6 d-flex flex-column me-5">
+          <input class="temperature-taker mb-3 border-0 rounded-3 shadow pt-2 pb-2 ps-4 pe-4" type="number" required placeholder="set air temperature">
+
+          <div class="check-box text-start mb-2">
+            <input class="condition-rain" type="checkbox">
+            
+            <span class="post-check link-danger fw-bolder">Rainy weather!</span>
+          </div>
+        </div>
+
+        <button class="info-sender col-3 h-25 pt-2 pb-2 border-0 rounded-3 shadow bg-white" type="submit">Send informations</button>
+      </form>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
